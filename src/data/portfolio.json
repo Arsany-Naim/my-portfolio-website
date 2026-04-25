@@ -1,0 +1,53 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/EduCode.jpeg",
+            "title": "EduCode: Educational Game",
+            "description": "Spring boot, Flask, Microservices, Unity, PostgreSQL",
+            "url": ""
+        },
+        {
+            "cover": "/portfolio/Kerri.png",
+            "title": "Kerri: E-commerce Website",
+            "description": "Node.js, React, Express, Tailwind, MongoDB",
+            "url": "https://github.com/Arsany-Naim/Kerri-E-Commerce"
+        },
+        {
+            "cover": "/portfolio/TrendyFusion.png",
+            "title": "TrendyFusion: E-commerce Platform",
+            "description": "ASP.NET Core MVC, Angular, SQL Server",
+            "url": "https://github.com/Arsany-Naim/TrendyFusion_E-Shop"
+        },
+        {
+            "cover": "/portfolio/FoodieApp.png",
+            "title": "Foodie: Food Ordering App",
+            "description": "ASP.NET Core Web API, Angular, SQL Server",
+            "url": "https://github.com/Arsany-Naim/FoodieApp"
+        },
+        {
+            "cover": "/portfolio/StudySmartBot.jpeg",
+            "title": "StudySmartBot",
+            "description": "ReactJS, NodeJS, Web Sockets, MongoDB",
+            "url": "https://github.com/Arsany-Naim/StudySmartBot"
+        },
+        {
+            "cover": "/portfolio/Prestige.png",
+            "title": "Prestige: Shopping Cart",
+            "description": "TS, Angular, SQL",
+            "url": "https://github.com/Arsany-Naim/prestige-shopping-cart"
+        },
+        
+        {
+            "cover": "/portfolio/Hotel.png",
+            "title": "Hilton: Hotel Booking App",
+            "description": "C#, .NET, MySQL",
+            "url": "https://github.com/Arsany-Naim/Hotel-Management-System"
+        },
+        {
+            "cover": "/portfolio/Smell Detection.jpeg",
+            "title": "Stinky: Code Smell Detector",
+            "description": "Python, Flask, TensorFlow, Scikit-learn",
+            "url": "https://github.com/Arsany-Naim/code-smell-detection"
+        }
+    ]
+}
