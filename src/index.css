@@ -21,5 +21,17 @@ body {
 @media screen and (max-width: 1200px) {
   body {
     overflow: visible;
+    font-size: 14px;
+  }
+
+  .dashboard {
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 15px;
   }
 }

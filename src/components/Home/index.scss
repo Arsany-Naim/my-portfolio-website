@@ -128,8 +128,18 @@
     position: initial;
     width: 100%;
     transform: none;
-    padding: 10px;
+    padding: 20px;
     box-sizing: border-box;
+    text-align: center;
+  }
+
+  .home-page h1 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .home-page h2 {
+    font-size: 13px;
   }
 
   .home-page .cta-row {
@@ -158,5 +168,22 @@
     bottom: auto;
     left: 0;
     margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-page h1 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .home-page h2 {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .home-page .flat-button {
+    font-size: 11px;
+    padding: 10px 14px;
   }
 }

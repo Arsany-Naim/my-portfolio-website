@@ -91,17 +91,17 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
-        <FontAwesomeIcon 
+        <FontAwesomeIcon
           onClick={() => setShowNav(false)}
           icon={faClose}
           color="#ffd700"
-          size="3x"
+          size="lg"
           className='close-icon' />
       </nav>
       <ul>
         <li>
           <a
-            href="https://drive.google.com/file/d/18ZjobIEZNlqqxs4ah54pocNFLmFJWNZo/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ceBJMa__C_bN-p723oHVNeL8MHKI-JDS/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
@@ -142,11 +142,11 @@ const Sidebar = () => {
         
       
       </ul>
-      <FontAwesomeIcon 
+      <FontAwesomeIcon
           onClick={() => setShowNav(true)}
           icon={faBars}
           color="#ffd700"
-          size="5x"
+          size="xl"
           className='hamburger-icon' />
     </div>
   )

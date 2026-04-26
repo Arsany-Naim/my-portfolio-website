@@ -71,7 +71,7 @@
   animation-duration: 12s;
   transform-style: preserve-3d;
   transform-origin: 100px 100px 0;
-  margin-left: calc(50% - 100px);
+  margin-left: calc(30% - 100px);
 
   div {
     position: absolute;
@@ -132,5 +132,30 @@
   }
   83% {
     transform: rotateX(90deg);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .skill-icon {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stage-cube-cont {
+    height: 220px;
+    padding-top: 0;
+    padding-right: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cubespinner {
+    zoom: 0.7;
+  }
+
+  .skill-icon {
+    font-size: 32px;
   }
 }
