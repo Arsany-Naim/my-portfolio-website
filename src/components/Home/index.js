@@ -94,7 +94,7 @@ const Home = () => {
               CONTACT ME
             </Link>
             <a
-              href="https://drive.google.com/file/d/18ZjobIEZNlqqxs4ah54pocNFLmFJWNZo/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ceBJMa__C_bN-p723oHVNeL8MHKI-JDS/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="flat-button flat-button--secondary"
