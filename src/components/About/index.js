@@ -117,7 +117,7 @@ const About = () => {
               <FontAwesomeIcon icon={faAngular} color="#DD0031" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faJava} color="#fb5721" />
+              <FontAwesomeIcon icon={faReact} color="#61DAFB" />
             </div>
             <div className="face3">
               <FontAwesomeIcon icon={faAws} color="#000000" />
@@ -129,7 +129,7 @@ const About = () => {
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faReact} color="#61DAFB" />
+              <FontAwesomeIcon icon={faJava} color="#fb5721" />
             </div>
           </div>
         </div>
