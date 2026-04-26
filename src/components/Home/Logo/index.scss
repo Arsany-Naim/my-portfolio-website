@@ -1,0 +1,44 @@
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  height: 609px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a-perspective-wrapper {
+  transform: perspective(900px) rotateX(-18deg) rotateY(18deg);
+  transform-origin: center center;
+}
+
+.a-svg {
+  width: 320px;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 24px 48px rgba(255, 215, 0, 0.2));
+}
+
+@media screen and (max-width: 1200px) {
+  .logo-container {
+    position: relative;
+    width: 160px;
+    height: auto;
+    top: 40px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    box-sizing: border-box;
+  }
+
+  .a-svg {
+    width: 160px;
+  }
+}
