@@ -1,12 +1,9 @@
 import './index.scss'
 import { useState } from 'react'
-import LogoS from '../../assets/images/logo-s.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
-  faYoutube,
-  faSkype,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -15,8 +12,6 @@ import {
   faSuitcase,
   faBars,
   faClose,
-  faPaperPlane,
-  faPaperclip,
   faFileLines,
   faBriefcase,
 } from '@fortawesome/free-solid-svg-icons'

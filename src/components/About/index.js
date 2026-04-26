@@ -1,11 +1,7 @@
 import { useEffect, useState } from 'react'
 import {
-  faAmazon,
   faAngular,
   faAws,
-  faCss3,
-  faGitAlt,
-  faHtml5,
   faJava,
   faJsSquare,
   faNodeJs,
