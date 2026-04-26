@@ -38,7 +38,6 @@ const Home = () => {
                         image: downloadUrl
                     })
                 }, (error) => {
-                    console.log(error);
                     savePortfolio({
                         name,
                         description,
@@ -47,7 +46,6 @@ const Home = () => {
                     })
                 })
             }, (error) => {
-                console.log(error);
                 savePortfolio({
                     name,
                     description,
