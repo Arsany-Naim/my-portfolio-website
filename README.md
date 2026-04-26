@@ -1,72 +1,108 @@
-YouTube Tutorial on how I built this portfolio => https://youtu.be/ESHaail1eGc
+# Personal Portfolio — Arsany Naim
 
-# Getting Started with Create React App
+A single-page React portfolio showcasing my projects, experience, and contact information, with an animated UI and a Firebase-authenticated admin dashboard.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Demo
+
+> Deploy link here
+
+## Features
+
+- Animated letter-by-letter text transitions on page load
+- Responsive sidebar navigation with mobile hamburger menu
+- Contact form powered by EmailJS (no backend required)
+- Interactive Leaflet map showing location
+- Firebase Google OAuth for a protected admin dashboard
+- Resume download link and social links (LinkedIn, GitHub)
+
+## Pages
+
+| Route | Description |
+|---|---|
+| `/` | Home — animated hero with logo |
+| `/about` | About me |
+| `/portfolio` | Project showcase |
+| `/experience` | Work history timeline |
+| `/contact` | Contact form + map |
+| `/login` | Admin login (Firebase) |
+| `/dashboard` | Protected admin dashboard |
+
+## Tech Stack
+
+- **React 17** + React Router 6
+- **SCSS/SASS** for styling
+- **GSAP** for advanced animations
+- **Firebase 9** — Google Auth, Firestore, Storage
+- **EmailJS** — client-side email sending
+- **Leaflet** / React Leaflet — interactive map
+- **FontAwesome** — icons
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 14+
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/your-portfolio.git
+cd your-portfolio
+npm install
+```
+
+### Environment Variables
+
+Create a `.env` file in the project root with the following values:
+
+```env
+# Firebase
+REACT_APP_FIREBASE_API_KEY=
+REACT_APP_FIREBASE_AUTH_DOMAIN=
+REACT_APP_FIREBASE_PROJECT_ID=
+REACT_APP_FIREBASE_STORAGE_BUCKET=
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=
+REACT_APP_FIREBASE_APP_ID=
+
+# EmailJS
+REACT_APP_EMAILJS_SERVICE_ID=
+REACT_APP_EMAILJS_TEMPLATE_ID=
+REACT_APP_EMAILJS_PUBLIC_KEY=
+```
+
+### Running Locally
+
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Available Scripts
 
-In the project directory, you can run:
+| Command | Description |
+|---|---|
+| `npm start` | Start the development server |
+| `npm run build` | Build for production |
+| `npm test` | Run the test suite |
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+src/
+├── components/
+│   ├── Home/               # Hero page + animated logo
+│   ├── About/
+│   ├── Portfolio/
+│   ├── Experience/
+│   ├── Contact/            # EmailJS form + Leaflet map
+│   ├── Dashboard/          # Firebase-protected dashboard
+│   ├── Login/
+│   ├── Layout/             # Master layout with sidebar
+│   ├── Sidebar/            # Navigation + social links
+│   └── AnimatedLetters/    # Reusable letter animation
+├── App.js                  # Route definitions
+├── firebase.js             # Firebase config & exports
+└── index.js
+```
