@@ -98,11 +98,11 @@ const Contact = () => {
           </div>
           <div className="info-map-item">
             <FontAwesomeIcon icon={faPhone} className="info-icon" />
-            <span>+20 102 098 1934</span>
+            <a href="tel:+201020981934">+20 102 098 1934</a>
           </div>
           <div className="info-map-item">
             <FontAwesomeIcon icon={faEnvelope} className="info-icon" />
-            <span>arsanynaim@gmail.com</span>
+            <a href="mailto:arsanynaim@gmail.com">arsanynaim@gmail.com</a>
           </div>
         </div>
 

@@ -138,11 +138,18 @@
       flex-shrink: 0;
     }
 
-    span {
+    span,
+    a {
       color: #ccc;
       font-size: 14px;
       font-weight: 300;
       letter-spacing: 0.5px;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      color: #ffd700;
     }
   }
 }
