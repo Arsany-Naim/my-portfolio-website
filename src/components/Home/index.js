@@ -87,7 +87,7 @@ const Home = () => {
             /> 
 
           </h1>
-          <h2>Senior @MIU | Ex-Intern @Deloitte</h2>
+          <h2>CS Senior @MIU | Ex-Intern @Deloitte</h2>
 
           <div className="cta-row">
             <Link to="/contact" className="flat-button">
