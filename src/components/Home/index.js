@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
 import './index.scss'
@@ -121,6 +122,13 @@ const Home = () => {
               aria-label="GitHub"
             >
               <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a
+              href="mailto:arsanynaim@gmail.com"
+              className="social-icon"
+              aria-label="Email"
+            >
+              <FontAwesomeIcon icon={faEnvelope} />
             </a>
           </div>
         </div>
