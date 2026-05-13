@@ -96,7 +96,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://drive.google.com/file/d/1ceBJMa__C_bN-p723oHVNeL8MHKI-JDS/view?usp=sharing"
+            href="https://drive.google.com/file/d/1_gOlC8KOHXjUyqzFDS2HvkLqWVxKuErw/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
