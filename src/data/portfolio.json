@@ -25,6 +25,18 @@
             "url": "https://github.com/Arsany-Naim/FoodieApp"
         },
         {
+            "cover": "/portfolio/Travio.jpeg",
+            "title": "Travio: AI-Powered Travel Planning App",
+            "description": "Dart, Flutter, Supabase, Gemini API, Supabase",
+            "url": ""
+        },
+        {
+            "cover": "/portfolio/UniManage.jpeg",
+            "title": "UniManage: University Management System",
+            "description": "Java, JDBC, MySQL, MVC Architecture",
+            "url": ""
+        },
+        {
             "cover": "/portfolio/StudySmartBot.jpeg",
             "title": "StudySmartBot",
             "description": "ReactJS, NodeJS, Web Sockets, MongoDB",
